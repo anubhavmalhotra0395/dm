@@ -1,0 +1,96 @@
+.hero-container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    position: relative;
+    top:-20px;
+    
+}
+.bg-video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero-container > h4 {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 0px;
+    text-align: center;
+    transition: 1s all ease-in-out;
+    cursor: pointer;
+  }
+
+
+  
+  .hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+      transition: 1s all ease-in-out;
+      cursor: pointer;
+  }
+
+ 
+
+  .btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+
+  
+  .btn--outline:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+  
+  .hero-btns {
+    margin-top: 12px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .hero-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-container > h4 {
+      font-size: 40px;
+      margin-top: 100px;
+      text-align: center;
+    }
+  
+    .hero-container > p {
+      font-size: 20px;
+      padding-left:30px;
+      padding-right:30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }

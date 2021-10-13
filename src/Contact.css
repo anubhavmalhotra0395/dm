@@ -1,0 +1,146 @@
+.contact-container {
+    background: 	#DEA5A4;
+    display: flex;
+    padding-top:50px;
+    padding-bottom:50px;
+    justify-content: center;
+    align-items: center;
+    border-radius:0px 0px 0 0 ;
+}
+
+.text-contact {
+    width: 400px;
+}
+
+.text-contact > h2{
+    color: #093F6E;
+} 
+
+.bg-imagec {  
+    width:550px;
+    animation: MoveUpDown 2s linear infinite;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    justify-content: start;
+    padding-right: 80px;
+}
+
+.btn--outline2 {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    padding: 12px 26px;
+    font-size: 20px;
+  }
+
+  
+  .btn--outline2:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+  
+  .hero-btns2 {
+    margin-top: 12px;
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .contact-container {
+        padding-top:50px;
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bg-imagec {   
+        width:400px;
+    }
+    .text-contact {
+        padding-top:0px;
+        width: 380px;
+        padding-right:30px;
+    }
+    .text-contact > h2 
+    {
+        font-size:30px;   
+    }
+    .text-contact > p 
+    {
+        font-size:16px;   
+    }
+
+}
+
+@media screen and (max-width: 760px){
+
+    .contact-container {
+        padding-top:30px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .text-contact {
+        padding-top:60px;
+        width: 450px;
+        padding-right:0px;
+        text-align: center;
+    }
+    .text-contact > h4 
+    {
+        font-size:30px;   
+    }
+    .bg-imagec {   
+        width:400px;
+        padding-left: 40px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .text-contact > p 
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    } 
+}
+
+@media screen and (max-width: 480px){
+
+    .contact-container {
+        padding-top:30px;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .text-contact {
+        padding-top:60px;
+        width: 300px;
+        padding-right:0px;
+        text-align: center;
+    }
+    .text-contact > h4 
+    {
+        font-size:30px;   
+    }
+    .bg-imagec {   
+        width:350px;
+        padding-left: 40px;
+        padding-right: 10px;
+        padding-top: 30px;
+    }
+    .text-contact > p 
+    {
+        font-size: 16px;
+        padding-top: 10px;
+    } 
+}
